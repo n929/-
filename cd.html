@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>テスト</title>
 
-<script type="text/javascript" src="count.js">
+<script type="text/javascript" src="CountTimer.js">
 </script>
 
 </head>
@@ -13,14 +13,16 @@
 <form name="timer">
 <input type="text" value="">分
 <input type="text" value="">秒<br>
-<input type="button" value="スタート" onclick="cntStart()">
-<input type="button" value="ストップ" onclick="cntStop()">
+<input type="button" value="スタート" onclick="Start()">
+<input type="button" value="ストップ" onclick="Stop()">
+<input type="button" value="リセット" onclick="Reset()">
 <br><br>
-計算してください。
 <span id="rnd1"></span>
-+
+×
 <span id="rnd2"></span>
-<INPUT type="text" name="answer">
+=
+<input type="text" name="answer">
+<input type="button" value="次へ" onclick="Next()">
 
 </form>
 </body>
