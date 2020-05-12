@@ -14,7 +14,7 @@
 ## CountTimer.js
 ＊JavaScriptはcd.htmlに間接的に組み込んだ。（cd.html7行目）  
 
-・Question関数
+・Question関数  
 　・1～100までの関数を発生させる。  
 　・１０問が終了したときに、残り秒数と正解数を表示する。  
 ・Start関数、Stop関数、CountDown関数、tmWrite関数  
