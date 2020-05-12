@@ -43,8 +43,8 @@ function countDown(){
 	var min=document.timer.elements[0].value;
 	var sec=document.timer.elements[1].value;
 	if( (min=="") && (sec=="") ){
-		alert("時刻を設定してください！");
-		ReSet();
+		alert("時間を設定してください！");
+		Reset();
 	}
 	else{
 		if (min=="") min=0;
@@ -72,8 +72,8 @@ function tmWrite(int){
 //フォームを初期状態に戻す（リセット）関数
 function Reset(){
 	que=0;
-	document.timer.elements[0].value="0";
-	document.timer.elements[1].value="0";
+	document.timer.elements[0].value="";
+	document.timer.elements[1].value="";
 	document.timer.elements[2].disabled=false;
 	clearInterval(time);
 }  
