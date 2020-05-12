@@ -44,7 +44,7 @@ function countDown(){
 	var sec=document.timer.elements[1].value;
 	if( (min=="") && (sec=="") ){
 		alert("時刻を設定してください！");
-		reSet();
+		ReSet();
 	}
 	else{
 		if (min=="") min=0;
@@ -75,6 +75,6 @@ function Reset(){
 	document.timer.elements[0].value="0";
 	document.timer.elements[1].value="0";
 	document.timer.elements[2].disabled=false;
-	clearInterval(timer1);
+	clearInterval(time);
 }  
 //-->	
